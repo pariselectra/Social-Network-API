@@ -94,13 +94,15 @@ const names = [
   
   const genRandomIndex = (arr) => Math.floor(Math.random() * arr.length);
     
-  const getRandomPost = (words) => {
-    let post = '';
-    for (let i = 0; i < words; i++) {
-      post += ` ${genRandomIndex}`;
-    }
-    return post;
-  };
+  // const getRandomThought = () => {
+  //   let thought = '';
+  //   for (let i = 0; i < thoughts; i++) {
+  //     thought += ` ${genRandomIndex}`;
+  //   }
+  //   return thought;
+  // };
+
+
   
   // Get a random item given an array
   const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
@@ -109,7 +111,12 @@ const names = [
   const getRandomName = () =>
     `${getRandomArrItem(names)}`;
   
-  // Function to generate random comments given a number (ex. 10 comments === getRandomComments(10))
+  const getRandomThought = () => {
+    return{thoughtBody: `${getRandomArrItem(thoughts)}`}
+    
+  }
+
+    // Function to generate random comments given a number (ex. 10 comments === getRandomComments(10))
   const getRandomFriends = (int) => {
     const results = [];
     for (let i = 0; i < int; i++) {
@@ -123,5 +130,6 @@ const names = [
   // Export the functions for use in seed.js
   module.exports = {
     getRandomName,
-    getRandomFriends};
+    getRandomFriends,
+    getRandomThought};
   
