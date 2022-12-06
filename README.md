@@ -30,6 +30,7 @@ This command starts the program. After running this command, you should see a me
 ## Video Walkthrough
 
 [![Video Walkthrough](https://img.youtube.com/vi/upF5rzdcHRE/0.jpg)](https://www.youtube.com/watch?v=upF5rzdcHRE)
+
 https://www.youtube.com/watch?v=upF5rzdcHRE
 
 ## Credits
