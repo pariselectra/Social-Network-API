@@ -27,7 +27,10 @@ This command starts the program. After running this command, you should see a me
 
 ![DELETE request of one user](./images/Screen%20Shot%202022-12-05%20at%2011.31.49%20AM.png)
 
+## Video Walkthrough
+
 [![Video Walkthrough](https://img.youtube.com/vi/upF5rzdcHRE/0.jpg)](https://www.youtube.com/watch?v=upF5rzdcHRE)
+https://www.youtube.com/watch?v=upF5rzdcHRE
 
 ## Credits
 This challenge was made while in attendance of the University of Texas's Full Stack Coding Bootcamp in conjunction with Trilogy Education.
